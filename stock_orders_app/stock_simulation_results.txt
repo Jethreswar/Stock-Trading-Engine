@@ -1,0 +1,544 @@
+PS C:\Users\jethr\Desktop\Onymos_project> cd stock_engine         
+PS C:\Users\jethr\Desktop\Onymos_project\stock_engine> python stock_orders.py
+
+Starting trading simulation with 30 active stocks...
+Simulating 200 orders over 3 seconds with 10 concurrent traders
+--------------------------------------------------------------------------------
+Order #0: BUY 5000 shares of Visa at $10.41 by trader Trader-11
+Order #1: BUY 2000 shares of Walmart at $19.51 by trader Trader-17
+Order #2: SELL 2000 shares of Adobe at $59.74 by trader Trader-15
+Order #3: SELL 2000 shares of Adobe at $59.96 by trader Trader-0
+Order #4: BUY 200 shares of Exxon at $49.81 by trader Trader-7
+Order #5: BUY 500 shares of UnitedHealth at $60.47 by trader Trader-0
+Order #6: BUY 5000 shares of Johnson&Johnson at $99.86 by trader Trader-14
+Order #7: BUY 500 shares of Pepsi at $79.90 by trader Trader-9
+Order #8: BUY 100 shares of Visa at $9.82 by trader Trader-13
+Order #9: BUY 1000 shares of JPMorgan at $89.89 by trader Trader-9
+Order #10: BUY 1000 shares of Meta at $49.66 by trader Trader-10
+Order #11: BUY 500 shares of UnitedHealth at $59.66 by trader Trader-9
+Order #12: BUY 5000 shares of Oracle at $89.86 by trader Trader-12
+Order #14: BUY 500 shares of HomeDepot at $70.18 by trader Trader-13
+Order #13: SELL 500 shares of Chevron at $99.84 by trader Trader-6
+Order #15: SELL 1000 shares of Disney at $30.23 by trader Trader-8
+Order #16: SELL 1000 shares of Procter&Gamble at $29.55 by trader Trader-5
+Order #18: BUY 1000 shares of Walmart at $19.92 by trader Trader-19
+Order #20: SELL 5000 shares of JPMorgan at $89.68 by trader Trader-6
+Order #19: SELL 1000 shares of Visa at $10.45 by trader Trader-9
+Order #17: BUY 500 shares of Intel at $19.94 by trader Trader-15
+MATCH EXECUTED: Order #9 (BUY) matched with Order #20 (SELL)
+  1000 shares of JPMorgan traded at $89.68
+  Value: $89680.00
+Order #21: SELL 5000 shares of Walmart at $19.66 by trader Trader-3
+Order #22: BUY 500 shares of Coca-Cola at $39.94 by trader Trader-7
+MATCH EXECUTED: Order #18 (BUY) matched with Order #21 (SELL)
+  1000 shares of Walmart traded at $19.66
+  Value: $19660.00
+Order #25: BUY 100 shares of Pepsi at $79.64 by trader Trader-0
+Order #24: SELL 5000 shares of Pfizer at $9.64 by trader Trader-1
+Order #26: SELL 500 shares of Chevron at $99.73 by trader Trader-13
+Order #28: SELL 500 shares of Coca-Cola at $40.28 by trader Trader-10
+Order #23: SELL 100 shares of Cisco at $70.12 by trader Trader-0
+Order #30: BUY 100 shares of Apple at $9.97 by trader Trader-8
+Order #29: BUY 5000 shares of Disney at $30.29 by trader Trader-10
+Order #27: SELL 2000 shares of Comcast at $99.95 by trader Trader-4
+MATCH EXECUTED: Order #29 (BUY) matched with Order #15 (SELL)
+  1000 shares of Disney traded at $30.23
+  Value: $30230.00
+Order #31: SELL 100 shares of Comcast at $100.06 by trader Trader-17
+Order #32: SELL 2000 shares of Johnson&Johnson at $99.58 by trader Trader-2
+MATCH EXECUTED: Order #6 (BUY) matched with Order #32 (SELL)
+  2000 shares of Johnson&Johnson traded at $99.58
+Order #33: SELL 1000 shares of Apple at $10.07 by trader Trader-4
+Order #34: BUY 5000 shares of Intel at $20.08 by trader Trader-9
+  Value: $199160.00
+Order #35: SELL 500 shares of Johnson&Johnson at $99.80 by trader Trader-15
+Order #36: SELL 100 shares of HomeDepot at $69.85 by trader Trader-5
+Order #38: SELL 500 shares of Chevron at $99.52 by trader Trader-3
+Order #40: SELL 100 shares of Mastercard at $40.31 by trader Trader-10
+Order #42: SELL 200 shares of Netflix at $50.33 by trader Trader-9
+MATCH EXECUTED: Order #6 (BUY) matched with Order #35 (SELL)
+Order #39: BUY 200 shares of Johnson&Johnson at $100.49 by trader Trader-16
+Order #43: SELL 5000 shares of Mastercard at $40.00 by trader Trader-5
+  500 shares of Johnson&Johnson traded at $99.80
+Order #37: BUY 100 shares of Berkshire at $79.83 by trader Trader-2
+  Value: $49900.00
+Order #41: BUY 200 shares of Cisco at $70.31 by trader Trader-19
+MATCH EXECUTED: Order #14 (BUY) matched with Order #36 (SELL)
+  100 shares of HomeDepot traded at $69.85
+  Value: $6985.00
+MATCH EXECUTED: Order #41 (BUY) matched with Order #23 (SELL)
+  100 shares of Cisco traded at $70.12
+  Value: $7012.00
+Order #44: BUY 5000 shares of Verizon at $90.48 by trader Trader-2
+Order #45: BUY 200 shares of Procter&Gamble at $29.88 by trader Trader-0
+Order #46: BUY 5000 shares of Oracle at $90.43 by trader Trader-19
+MATCH EXECUTED: Order #0 (BUY) matched with Order #47 (SELL)
+Order #47: SELL 100 shares of Visa at $9.57 by trader Trader-10
+  100 shares of Visa traded at $9.57
+Order #48: SELL 1000 shares of Chevron at $100.29 by trader Trader-18
+  Value: $957.00
+MATCH EXECUTED: Order #45 (BUY) matched with Order #16 (SELL)
+  200 shares of Procter&Gamble traded at $29.55
+  Value: $5910.00
+Order #49: SELL 1000 shares of Johnson&Johnson at $100.06 by trader Trader-12
+Order #50: SELL 200 shares of Netflix at $50.08 by trader Trader-5
+Order #52: BUY 100 shares of BankOfAmerica at $79.96 by trader Trader-7
+Order #54: SELL 200 shares of Mastercard at $39.63 by trader Trader-16
+MATCH EXECUTED: Order #39 (BUY) matched with Order #49 (SELL)
+Order #51: BUY 100 shares of Microsoft at $19.65 by trader Trader-9
+Order #55: BUY 200 shares of Pfizer at $10.15 by trader Trader-14
+  200 shares of Johnson&Johnson traded at $100.06
+  Value: $20012.00
+Order #53: BUY 1000 shares of Disney at $29.96 by trader Trader-10
+MATCH EXECUTED: Order #55 (BUY) matched with Order #24 (SELL)
+Order #56: BUY 500 shares of Apple at $10.17 by trader Trader-15
+  200 shares of Pfizer traded at $9.64
+  Value: $1928.00
+MATCH EXECUTED: Order #56 (BUY) matched with Order #33 (SELL)
+  500 shares of Apple traded at $10.07
+  Value: $5035.00
+Order #57: SELL 5000 shares of Cisco at $70.16 by trader Trader-9
+Order #58: BUY 5000 shares of Cisco at $70.12 by trader Trader-5
+Order #59: BUY 500 shares of JPMorgan at $89.72 by trader Trader-18
+MATCH EXECUTED: Order #41 (BUY) matched with Order #57 (SELL)
+  100 shares of Cisco traded at $70.16
+  Value: $7016.00
+MATCH EXECUTED: Order #59 (BUY) matched with Order #20 (SELL)
+  500 shares of JPMorgan traded at $89.68
+  Value: $44840.00
+Order #60: BUY 5000 shares of Microsoft at $19.60 by trader Trader-14
+Order #61: BUY 200 shares of Apple at $10.21 by trader Trader-6
+MATCH EXECUTED: Order #61 (BUY) matched with Order #33 (SELL)
+Order #64: SELL 5000 shares of Mastercard at $39.82 by trader Trader-3
+Order #66: SELL 200 shares of Verizon at $90.41 by trader Trader-18
+Order #68: SELL 200 shares of Netflix at $49.83 by trader Trader-3
+Order #63: BUY 2000 shares of Berkshire at $80.03 by trader Trader-13
+Order #65: BUY 5000 shares of Amazon at $30.11 by trader Trader-10
+Order #62: BUY 1000 shares of Disney at $30.10 by trader Trader-8
+  200 shares of Apple traded at $10.07
+Order #67: SELL 500 shares of Tesla at $60.26 by trader Trader-8
+  Value: $2014.00
+MATCH EXECUTED: Order #44 (BUY) matched with Order #66 (SELL)
+  200 shares of Verizon traded at $90.41
+  Value: $18082.00
+Order #69: BUY 200 shares of Nvidia at $69.55 by trader Trader-5
+Order #70: BUY 1000 shares of Disney at $29.56 by trader Trader-6
+MATCH EXECUTED: Order #71 (BUY) matched with Order #54 (SELL)
+Order #73: BUY 5000 shares of UnitedHealth at $59.52 by trader Trader-8
+Order #75: BUY 5000 shares of Microsoft at $20.09 by trader Trader-1
+Order #77: BUY 1000 shares of Oracle at $89.60 by trader Trader-4
+Order #72: BUY 100 shares of Walmart at $19.90 by trader Trader-18
+Order #74: BUY 500 shares of Chevron at $100.29 by trader Trader-11
+Order #71: BUY 1000 shares of Mastercard at $40.07 by trader Trader-17
+Order #76: BUY 500 shares of Meta at $50.19 by trader Trader-3
+  200 shares of Mastercard traded at $39.63
+  Value: $7926.00
+MATCH EXECUTED: Order #72 (BUY) matched with Order #21 (SELL)
+  100 shares of Walmart traded at $19.66
+  Value: $1966.00
+MATCH EXECUTED: Order #74 (BUY) matched with Order #38 (SELL)
+  500 shares of Chevron traded at $99.52
+  Value: $49760.00
+MATCH EXECUTED: Order #71 (BUY) matched with Order #64 (SELL)
+  800 shares of Mastercard traded at $39.82
+  Value: $31856.00
+Order #78: BUY 1000 shares of HomeDepot at $70.39 by trader Trader-2
+Order #79: BUY 500 shares of Nvidia at $69.89 by trader Trader-10
+Order #81: SELL 5000 shares of Mastercard at $39.87 by trader Trader-2
+Order #80: BUY 100 shares of BankOfAmerica at $80.49 by trader Trader-1
+Order #84: BUY 500 shares of Tesla at $60.38 by trader Trader-11
+Order #86: BUY 100 shares of Meta at $50.35 by trader Trader-7
+MATCH EXECUTED: Order #84 (BUY) matched with Order #67 (SELL)
+  500 shares of Tesla traded at $60.26
+Order #87: BUY 200 shares of Oracle at $89.77 by trader Trader-1
+Order #83: SELL 5000 shares of Nvidia at $69.94 by trader Trader-3
+  Value: $30130.00
+MATCH EXECUTED: Order #85 (BUY) matched with Order #24 (SELL)
+  1000 shares of Pfizer traded at $9.64
+  Value: $9640.00
+Order #82: SELL 2000 shares of Comcast at $99.73 by trader Trader-7
+Order #85: BUY 1000 shares of Pfizer at $10.45 by trader Trader-8
+Order #89: BUY 1000 shares of Comcast at $99.86 by trader Trader-17
+Order #92: SELL 1000 shares of Berkshire at $80.18 by trader Trader-16
+Order #93: BUY 500 shares of Johnson&Johnson at $100.18 by trader Trader-15
+MATCH EXECUTED: Order #93 (BUY) matched with Order #49 (SELL)
+  500 shares of Johnson&Johnson traded at $100.06
+  Value: $50030.00
+MATCH EXECUTED: Order #89 (BUY) matched with Order #82 (SELL)
+  1000 shares of Comcast traded at $99.73
+  Value: $99730.00
+Order #88: SELL 200 shares of Nvidia at $70.29 by trader Trader-15
+Order #90: SELL 2000 shares of Disney at $29.89 by trader Trader-0
+Order #91: SELL 100 shares of Mastercard at $39.64 by trader Trader-19
+MATCH EXECUTED: Order #29 (BUY) matched with Order #90 (SELL)
+  2000 shares of Disney traded at $29.89
+  Value: $59780.00
+Order #94: SELL 100 shares of Adobe at $60.21 by trader Trader-6
+Order #95: SELL 100 shares of Pfizer at $10.50 by trader Trader-16
+Order #97: SELL 500 shares of Disney at $30.09 by trader Trader-7
+Order #99: SELL 2000 shares of Verizon at $89.65 by trader Trader-12
+Order #101: BUY 5000 shares of Procter&Gamble at $29.77 by trader Trader-12
+Order #102: SELL 200 shares of BankOfAmerica at $79.96 by trader Trader-16
+Order #98: SELL 2000 shares of JPMorgan at $90.49 by trader Trader-11
+MATCH EXECUTED: Order #29 (BUY) matched with Order #97 (SELL)
+  500 shares of Disney traded at $30.09
+Order #100: SELL 1000 shares of Berkshire at $80.05 by trader Trader-14
+  Value: $15045.00
+Order #96: BUY 200 shares of Comcast at $99.62 by trader Trader-3
+MATCH EXECUTED: Order #44 (BUY) matched with Order #99 (SELL)
+  2000 shares of Verizon traded at $89.65
+  Value: $179300.00
+MATCH EXECUTED: Order #101 (BUY) matched with Order #16 (SELL)
+  800 shares of Procter&Gamble traded at $29.55
+  Value: $23640.00
+MATCH EXECUTED: Order #52 (BUY) matched with Order #102 (SELL)
+  100 shares of BankOfAmerica traded at $79.96
+  Value: $7996.00
+MATCH EXECUTED: Order #80 (BUY) matched with Order #102 (SELL)
+  100 shares of BankOfAmerica traded at $79.96
+  Value: $7996.00
+Order #103: BUY 2000 shares of Cisco at $69.98 by trader Trader-11
+Order #104: BUY 200 shares of Exxon at $50.20 by trader Trader-9
+Order #107: SELL 1000 shares of Intel at $20.31 by trader Trader-1
+Order #109: SELL 200 shares of Nvidia at $70.21 by trader Trader-7
+Order #111: SELL 100 shares of JPMorgan at $89.56 by trader Trader-7
+Order #106: BUY 200 shares of Johnson&Johnson at $100.19 by trader Trader-10
+Order #105: SELL 2000 shares of Comcast at $100.30 by trader Trader-3
+Order #110: BUY 2000 shares of Intel at $20.35 by trader Trader-14
+MATCH EXECUTED: Order #106 (BUY) matched with Order #49 (SELL)
+Order #108: SELL 5000 shares of Adobe at $59.85 by trader Trader-1
+  200 shares of Johnson&Johnson traded at $100.06
+  Value: $20012.00
+Order #112: BUY 100 shares of Alphabet at $39.55 by trader Trader-2
+MATCH EXECUTED: Order #110 (BUY) matched with Order #107 (SELL)
+  1000 shares of Intel traded at $20.31
+  Value: $20310.00
+Order #113: SELL 200 shares of Nvidia at $69.65 by trader Trader-11
+Order #114: SELL 100 shares of Apple at $9.52 by trader Trader-2
+MATCH EXECUTED: Order #30 (BUY) matched with Order #114 (SELL)
+  100 shares of Apple traded at $9.52
+Order #115: BUY 200 shares of Disney at $30.49 by trader Trader-1
+  Value: $952.00
+MATCH EXECUTED: Order #79 (BUY) matched with Order #113 (SELL)
+  200 shares of Nvidia traded at $69.65
+  Value: $13930.00
+Order #116: BUY 2000 shares of Walmart at $19.98 by trader Trader-7
+Order #117: BUY 500 shares of Meta at $49.78 by trader Trader-13
+Order #120: BUY 5000 shares of Intel at $20.26 by trader Trader-11
+MATCH EXECUTED: Order #116 (BUY) matched with Order #21 (SELL)
+Order #122: SELL 100 shares of JPMorgan at $89.64 by trader Trader-10
+Order #119: BUY 100 shares of Oracle at $90.28 by trader Trader-17
+  2000 shares of Walmart traded at $19.66
+Order #118: BUY 2000 shares of Comcast at $100.50 by trader Trader-6
+Order #121: SELL 200 shares of Nvidia at $70.09 by trader Trader-13
+  Value: $39320.00
+MATCH EXECUTED: Order #118 (BUY) matched with Order #82 (SELL)
+  1000 shares of Comcast traded at $99.73
+  Value: $99730.00
+Order #123: SELL 200 shares of Walmart at $20.13 by trader Trader-19
+MATCH EXECUTED: Order #118 (BUY) matched with Order #27 (SELL)
+  1000 shares of Comcast traded at $99.95
+  Value: $99950.00
+Order #124: BUY 500 shares of Meta at $50.46 by trader Trader-13
+Order #125: BUY 200 shares of Procter&Gamble at $29.98 by trader Trader-2
+Order #127: SELL 100 shares of Tesla at $59.94 by trader Trader-6
+Order #129: BUY 500 shares of HomeDepot at $69.94 by trader Trader-9
+MATCH EXECUTED: Order #130 (BUY) matched with Order #49 (SELL)
+  100 shares of Johnson&Johnson traded at $100.06
+Order #131: BUY 200 shares of BankOfAmerica at $80.21 by trader Trader-16
+Order #128: BUY 1000 shares of Oracle at $90.46 by trader Trader-18
+Order #126: SELL 500 shares of BankOfAmerica at $80.27 by trader Trader-4
+  Value: $10006.00
+Order #130: BUY 2000 shares of Johnson&Johnson at $100.23 by trader Trader-18
+Order #133: BUY 1000 shares of Procter&Gamble at $29.61 by trader Trader-3
+Order #134: SELL 200 shares of Oracle at $89.82 by trader Trader-1
+Order #132: BUY 2000 shares of Disney at $29.51 by trader Trader-13
+MATCH EXECUTED: Order #12 (BUY) matched with Order #134 (SELL)
+  200 shares of Oracle traded at $89.82
+  Value: $17964.00
+Order #136: SELL 2000 shares of BankOfAmerica at $80.13 by trader Trader-13
+MATCH EXECUTED: Order #131 (BUY) matched with Order #136 (SELL)
+Order #138: BUY 1000 shares of Intel at $20.39 by trader Trader-0
+Order #137: BUY 100 shares of Cisco at $70.14 by trader Trader-9
+Order #135: SELL 200 shares of Cisco at $69.96 by trader Trader-4
+Order #139: SELL 500 shares of Pfizer at $9.92 by trader Trader-17
+  200 shares of BankOfAmerica traded at $80.13
+Order #140: BUY 1000 shares of JPMorgan at $90.01 by trader Trader-6
+  Value: $16026.00
+MATCH EXECUTED: Order #58 (BUY) matched with Order #135 (SELL)
+  200 shares of Cisco traded at $69.96
+  Value: $13992.00
+MATCH EXECUTED: Order #140 (BUY) matched with Order #111 (SELL)
+  100 shares of JPMorgan traded at $89.56
+  Value: $8956.00
+MATCH EXECUTED: Order #140 (BUY) matched with Order #122 (SELL)
+  100 shares of JPMorgan traded at $89.64
+  Value: $8964.00
+MATCH EXECUTED: Order #140 (BUY) matched with Order #20 (SELL)
+  800 shares of JPMorgan traded at $89.68
+  Value: $71744.00
+Order #141: BUY 100 shares of Pepsi at $79.97 by trader Trader-15
+Order #142: SELL 2000 shares of Adobe at $60.36 by trader Trader-12
+MATCH EXECUTED: Order #143 (BUY) matched with Order #100 (SELL)
+  100 shares of Berkshire traded at $80.05
+  Value: $8005.00
+Order #147: SELL 5000 shares of HomeDepot at $69.81 by trader Trader-4
+Order #144: BUY 5000 shares of Disney at $29.98 by trader Trader-3
+Order #146: BUY 1000 shares of UnitedHealth at $59.72 by trader Trader-7
+Order #148: BUY 100 shares of Amazon at $30.33 by trader Trader-18
+Order #145: BUY 1000 shares of Oracle at $89.95 by trader Trader-13
+Order #143: BUY 100 shares of Berkshire at $80.34 by trader Trader-5
+MATCH EXECUTED: Order #14 (BUY) matched with Order #147 (SELL)
+  400 shares of HomeDepot traded at $69.81
+  Value: $27924.00
+MATCH EXECUTED: Order #78 (BUY) matched with Order #147 (SELL)
+  1000 shares of HomeDepot traded at $69.81
+  Value: $69810.00
+MATCH EXECUTED: Order #129 (BUY) matched with Order #147 (SELL)
+  500 shares of HomeDepot traded at $69.81
+  Value: $34905.00
+Order #149: BUY 1000 shares of Johnson&Johnson at $100.39 by trader Trader-17
+Order #150: SELL 500 shares of UnitedHealth at $59.51 by trader Trader-4
+Order #152: BUY 2000 shares of BankOfAmerica at $80.33 by trader Trader-18
+MATCH EXECUTED: Order #5 (BUY) matched with Order #150 (SELL)
+Order #154: SELL 100 shares of Oracle at $90.30 by trader Trader-0
+Order #153: BUY 200 shares of Verizon at $89.95 by trader Trader-16
+Order #151: BUY 200 shares of Procter&Gamble at $29.92 by trader Trader-6
+  500 shares of UnitedHealth traded at $59.51
+  Value: $29755.00
+MATCH EXECUTED: Order #152 (BUY) matched with Order #136 (SELL)
+  1800 shares of BankOfAmerica traded at $80.13
+  Value: $144234.00
+MATCH EXECUTED: Order #46 (BUY) matched with Order #154 (SELL)
+  100 shares of Oracle traded at $90.30
+  Value: $9030.00
+MATCH EXECUTED: Order #152 (BUY) matched with Order #126 (SELL)
+  200 shares of BankOfAmerica traded at $80.27
+  Value: $16054.00
+Order #155: SELL 2000 shares of Comcast at $99.79 by trader Trader-11
+Order #156: SELL 2000 shares of Tesla at $59.99 by trader Trader-15
+Order #158: SELL 100 shares of Alphabet at $40.01 by trader Trader-17
+MATCH EXECUTED: Order #29 (BUY) matched with Order #157 (SELL)
+Order #157: SELL 500 shares of Disney at $30.08 by trader Trader-17
+Order #160: SELL 100 shares of Nvidia at $70.39 by trader Trader-18
+Order #159: SELL 200 shares of Mastercard at $39.60 by trader Trader-12
+  500 shares of Disney traded at $30.08
+  Value: $15040.00
+Order #161: BUY 100 shares of Pfizer at $9.61 by trader Trader-4
+Order #162: BUY 5000 shares of Johnson&Johnson at $99.82 by trader Trader-7
+Order #164: SELL 200 shares of Verizon at $90.24 by trader Trader-12
+Order #166: SELL 200 shares of Procter&Gamble at $29.60 by trader Trader-18
+Order #163: SELL 1000 shares of Meta at $50.17 by trader Trader-15
+MATCH EXECUTED: Order #165 (BUY) matched with Order #100 (SELL)
+  900 shares of Berkshire traded at $80.05
+Order #165: BUY 2000 shares of Berkshire at $80.36 by trader Trader-15
+  Value: $72045.00
+MATCH EXECUTED: Order #76 (BUY) matched with Order #163 (SELL)
+  500 shares of Meta traded at $50.17
+  Value: $25085.00
+MATCH EXECUTED: Order #86 (BUY) matched with Order #163 (SELL)
+  100 shares of Meta traded at $50.17
+  Value: $5017.00
+MATCH EXECUTED: Order #124 (BUY) matched with Order #163 (SELL)
+  400 shares of Meta traded at $50.17
+  Value: $20068.00
+MATCH EXECUTED: Order #44 (BUY) matched with Order #164 (SELL)
+  200 shares of Verizon traded at $90.24
+  Value: $18048.00
+MATCH EXECUTED: Order #101 (BUY) matched with Order #166 (SELL)
+  200 shares of Procter&Gamble traded at $29.60
+  Value: $5920.00
+MATCH EXECUTED: Order #165 (BUY) matched with Order #92 (SELL)
+  1000 shares of Berkshire traded at $80.18
+  Value: $80180.00
+Order #167: SELL 100 shares of Nvidia at $70.37 by trader Trader-8
+Order #168: SELL 200 shares of Chevron at $100.12 by trader Trader-13
+Order #170: BUY 100 shares of Alphabet at $39.62 by trader Trader-13
+Order #172: SELL 1000 shares of Exxon at $50.20 by trader Trader-12
+MATCH EXECUTED: Order #173 (BUY) matched with Order #169 (SELL)
+Order #174: BUY 5000 shares of Visa at $10.26 by trader Trader-9
+Order #171: BUY 5000 shares of Verizon at $90.13 by trader Trader-15
+Order #169: SELL 200 shares of Mastercard at $39.52 by trader Trader-7
+  200 shares of Mastercard traded at $39.52
+Order #173: BUY 200 shares of Mastercard at $40.25 by trader Trader-19
+  Value: $7904.00
+MATCH EXECUTED: Order #104 (BUY) matched with Order #172 (SELL)
+  200 shares of Exxon traded at $50.20
+  Value: $10040.00
+Order #175: BUY 200 shares of JPMorgan at $90.28 by trader Trader-6
+Order #176: SELL 500 shares of Mastercard at $39.61 by trader Trader-12
+Order #178: SELL 2000 shares of Walmart at $20.01 by trader Trader-15
+Order #180: BUY 5000 shares of Exxon at $49.96 by trader Trader-9
+Order #182: SELL 100 shares of Comcast at $100.35 by trader Trader-3
+Order #177: BUY 1000 shares of HomeDepot at $70.44 by trader Trader-4
+Order #181: SELL 1000 shares of Procter&Gamble at $29.79 by trader Trader-19
+Order #179: SELL 100 shares of Disney at $30.23 by trader Trader-8
+MATCH EXECUTED: Order #175 (BUY) matched with Order #20 (SELL)
+  200 shares of JPMorgan traded at $89.68
+  Value: $17936.00
+MATCH EXECUTED: Order #177 (BUY) matched with Order #147 (SELL)
+  1000 shares of HomeDepot traded at $69.81
+  Value: $69810.00
+MATCH EXECUTED: Order #29 (BUY) matched with Order #179 (SELL)
+  100 shares of Disney traded at $30.23
+  Value: $3023.00
+MATCH EXECUTED: Order #125 (BUY) matched with Order #181 (SELL)
+  200 shares of Procter&Gamble traded at $29.79
+  Value: $5958.00
+MATCH EXECUTED: Order #151 (BUY) matched with Order #181 (SELL)
+  200 shares of Procter&Gamble traded at $29.79
+  Value: $5958.00
+Order #183: BUY 1000 shares of Berkshire at $79.99 by trader Trader-1
+Order #184: BUY 500 shares of Procter&Gamble at $30.18 by trader Trader-11
+Order #185: BUY 2000 shares of UnitedHealth at $60.36 by trader Trader-2
+Order #187: SELL 1000 shares of Pepsi at $79.51 by trader Trader-7
+MATCH EXECUTED: Order #184 (BUY) matched with Order #181 (SELL)
+Order #188: SELL 2000 shares of Adobe at $60.08 by trader Trader-4
+  500 shares of Procter&Gamble traded at $29.79
+Order #186: BUY 200 shares of Cisco at $70.42 by trader Trader-11
+  Value: $14895.00
+MATCH EXECUTED: Order #186 (BUY) matched with Order #57 (SELL)
+  200 shares of Cisco traded at $70.16
+  Value: $14032.00
+MATCH EXECUTED: Order #7 (BUY) matched with Order #187 (SELL)
+  500 shares of Pepsi traded at $79.51
+  Value: $39755.00
+MATCH EXECUTED: Order #25 (BUY) matched with Order #187 (SELL)
+  100 shares of Pepsi traded at $79.51
+  Value: $7951.00
+MATCH EXECUTED: Order #141 (BUY) matched with Order #187 (SELL)
+  100 shares of Pepsi traded at $79.51
+  Value: $7951.00
+Order #189: BUY 1000 shares of Oracle at $90.33 by trader Trader-5
+Order #190: BUY 1000 shares of Cisco at $69.62 by trader Trader-12
+Order #192: BUY 100 shares of Pepsi at $79.93 by trader Trader-14
+Order #194: SELL 5000 shares of Pfizer at $9.80 by trader Trader-9
+Order #196: BUY 1000 shares of Johnson&Johnson at $100.48 by trader Trader-3
+Order #191: BUY 2000 shares of Verizon at $89.80 by trader Trader-11
+Order #195: SELL 500 shares of HomeDepot at $69.54 by trader Trader-1
+Order #193: BUY 500 shares of Netflix at $50.21 by trader Trader-18
+MATCH EXECUTED: Order #192 (BUY) matched with Order #187 (SELL)
+  100 shares of Pepsi traded at $79.51
+  Value: $7951.00
+MATCH EXECUTED: Order #193 (BUY) matched with Order #68 (SELL)
+  200 shares of Netflix traded at $49.83
+  Value: $9966.00
+MATCH EXECUTED: Order #193 (BUY) matched with Order #50 (SELL)
+  200 shares of Netflix traded at $50.08
+  Value: $10016.00
+Order #197: SELL 5000 shares of Nvidia at $70.18 by trader Trader-8
+Order #198: BUY 1000 shares of Exxon at $50.43 by trader Trader-1
+Order #199: SELL 1000 shares of Adobe at $59.62 by trader Trader-12
+MATCH EXECUTED: Order #198 (BUY) matched with Order #172 (SELL)
+  800 shares of Exxon traded at $50.20
+  Value: $40160.00
+
+Order Book for Visa:
+------------------------------------------------------------
+BUY ORDERS:
+  Order #0: 4900 shares at $10.41
+  Order #174: 5000 shares at $10.26
+  Order #8: 100 shares at $9.82
+
+SELL ORDERS:
+  Order #19: 1000 shares at $10.45
+------------------------------------------------------------
+
+Order Book for Comcast:
+------------------------------------------------------------
+BUY ORDERS:
+  Order #96: 200 shares at $99.62
+
+SELL ORDERS:
+  Order #155: 2000 shares at $99.79
+  Order #27: 1000 shares at $99.95
+  Order #31: 100 shares at $100.06
+  Order #105: 2000 shares at $100.30
+  Order #182: 100 shares at $100.35
+------------------------------------------------------------
+
+Order Book for Pfizer:
+------------------------------------------------------------
+BUY ORDERS:
+  Order #161: 100 shares at $9.61
+
+SELL ORDERS:
+  Order #24: 3800 shares at $9.64
+  Order #194: 5000 shares at $9.80
+  Order #139: 500 shares at $9.92
+  Order #95: 100 shares at $10.50
+------------------------------------------------------------
+
+Order Book for Pepsi:
+------------------------------------------------------------
+BUY ORDERS:
+  No buy orders
+
+SELL ORDERS:
+  Order #187: 200 shares at $79.51
+------------------------------------------------------------
+
+Order Book for Nvidia:
+------------------------------------------------------------
+BUY ORDERS:
+  Order #79: 300 shares at $69.89
+  Order #69: 200 shares at $69.55
+
+SELL ORDERS:
+  Order #83: 5000 shares at $69.94
+  Order #121: 200 shares at $70.09
+  Order #197: 5000 shares at $70.18
+  Order #109: 200 shares at $70.21
+  Order #88: 200 shares at $70.29
+  Order #167: 100 shares at $70.37
+  Order #160: 100 shares at $70.39
+------------------------------------------------------------
+
+Transaction Summary:
+--------------------------------------------------------------------------------
+Total Transactions: 76
+Total Shares Traded: 38400
+Total Trading Value: $2379498.00
+
+Trading by Company:
+  Johnson&Johnson: 6 trades, 3500 shares, $349120.00
+  Comcast: 3 trades, 3000 shares, $299410.00
+  JPMorgan: 6 trades, 2700 shares, $242120.00
+  Verizon: 3 trades, 2400 shares, $215430.00
+  HomeDepot: 5 trades, 3000 shares, $209434.00
+  BankOfAmerica: 5 trades, 2400 shares, $192306.00
+  Berkshire: 3 trades, 2000 shares, $160230.00
+  Disney: 5 trades, 4100 shares, $123118.00
+  Pepsi: 4 trades, 800 shares, $63608.00
+  Procter&Gamble: 6 trades, 2100 shares, $62281.00
+  Walmart: 3 trades, 3100 shares, $60946.00
+  Exxon: 2 trades, 1000 shares, $50200.00
+  Meta: 3 trades, 1000 shares, $50170.00
+  Chevron: 1 trades, 500 shares, $49760.00
+  Mastercard: 3 trades, 1200 shares, $47686.00
+  Cisco: 4 trades, 600 shares, $42052.00
+  Tesla: 1 trades, 500 shares, $30130.00
+  UnitedHealth: 1 trades, 500 shares, $29755.00
+  Oracle: 2 trades, 300 shares, $26994.00
+  Intel: 1 trades, 1000 shares, $20310.00
+  Netflix: 2 trades, 400 shares, $19982.00
+  Nvidia: 1 trades, 200 shares, $13930.00
+  Pfizer: 2 trades, 1200 shares, $11568.00
+  Apple: 3 trades, 800 shares, $8001.00
+  Visa: 1 trades, 100 shares, $957.00
+--------------------------------------------------------------------------------
+
+Recent Transactions:
+  Exxon: 800 shares at $50.20 ($40160.00)
+  Netflix: 200 shares at $49.83 ($9966.00)
+  Netflix: 200 shares at $50.08 ($10016.00)
+  Pepsi: 100 shares at $79.51 ($7951.00)
+  Cisco: 200 shares at $70.16 ($14032.00)
+  Pepsi: 500 shares at $79.51 ($39755.00)
+  Pepsi: 100 shares at $79.51 ($7951.00)
+  Pepsi: 100 shares at $79.51 ($7951.00)
+  Procter&Gamble: 500 shares at $29.79 ($14895.00)
+  Procter&Gamble: 200 shares at $29.79 ($5958.00)
+
+Trading simulation completed.
+PS C:\Users\jethr\Desktop\Onymos_project\stock_engine>
